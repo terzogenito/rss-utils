@@ -1,0 +1,32 @@
+{
+  "name": "@terzogenito/rss-utils",
+  "version": "1.0.1",
+  "description": "Get RSS Feed",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=21.6.1"
+  },
+  "keywords": [
+    "nodejs",
+    "module",
+    "rss",
+    "feed",
+    "get",
+    "utils"
+  ],
+  "author": "Terzogenito",
+  "license": "MIT",
+  "dependencies": {
+    "@terzogenito/file-utils": "^1.0.0"
+  }
+}
